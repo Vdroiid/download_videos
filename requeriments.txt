@@ -3,7 +3,7 @@ pip install yt-dlp
 [Necesario instalar -> FFmpeg]
 Enlace: https://www.gyan.dev/ffmpeg/builds/
     release Builds: ffmpeg-release-full.7z
-    Revisar el pdf para hacer las configuraciones necesarias
+    Para usar la herramienta consulta el pdf que está en la ubicación: `/recursos/`
 
 Para eliminar chaches...
 06/09/2024
