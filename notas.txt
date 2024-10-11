@@ -1,0 +1,5 @@
+main.py: Maneja la inicialización de la aplicación y muestra la ventana principal.
+
+gui.py: Contiene la implementación de la interfaz gráfica usando wxPython.
+
+downloader.py: Implementa la lógica de descarga usando yt-dlp.
