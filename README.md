@@ -13,5 +13,3 @@ Para usar este proyecto debes:
 
 ## Descargar FFmpeg
 [Página oficial](https://www.gyan.dev/ffmpeg/builds/)
-
-:::success
