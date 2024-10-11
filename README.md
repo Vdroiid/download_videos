@@ -15,5 +15,4 @@ Para usar este proyecto debes:
 [Página oficial](https://www.gyan.dev/ffmpeg/builds/)
 
 :::success
-Descargar videos
 :::
