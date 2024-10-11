@@ -5,8 +5,6 @@ Este Script descarga un video de YouTube,
 eligiendo la mejor calidad en MP4. Además,
 agarra el título del video como nombre de este archivo descargado.
 """
-
-# Configuración de yt_dlp para descargar el video en formato MP4
 ydl_opts = {
     'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]',  # Descargar el mejor video y audio combinados en MP4
     'outtmpl': '%(title)s.%(ext)s',  # Usar el título del video como nombre del archivo

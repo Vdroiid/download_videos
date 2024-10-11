@@ -3,7 +3,7 @@ from gui import VideoDownloaderFrame
 
 def main():
     app = wx.App(False)
-    frame = VideoDownloaderFrame(None, title="Descargador de Videos")
+    frame = VideoDownloaderFrame(None, title="Descarga videos")
     frame.Show()
     app.MainLoop()
 

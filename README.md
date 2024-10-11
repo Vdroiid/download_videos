@@ -1,2 +1,6 @@
 # download_videos
-Descargador de videos
+Para usar este proyecto debes:
+1. Instalar los paquetes que hay en requirements.txt, ya sea en su sistema global o en un entorno virtaul
+2. Descargar e instalar la herramienta FFmpeg si vas a requerir convertir en diferentes formatos el video
+3. Leer el archivo Documentación.txt que podría interesarle saber un poco más acerca de este proyecto
+4. Funciones_independientes contiene otros Scripts para descargar videos, que más adelante pienso integrarlos en uno solo

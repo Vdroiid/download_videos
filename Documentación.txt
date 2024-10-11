@@ -3,3 +3,11 @@ main.py: Maneja la inicialización de la aplicación y muestra la ventana princi
 gui.py: Contiene la implementación de la interfaz gráfica usando wxPython.
 
 downloader.py: Implementa la lógica de descarga usando yt-dlp.
+
+------------------------------------------------------------------------------------
+[Necesario instalar -> FFmpeg]
+Enlace: https://www.gyan.dev/ffmpeg/builds/
+    release Builds: ffmpeg-release-full.7z
+    Para usar la herramienta consulta el pdf que está en la ubicación: `/recursos/`
+------------------------------------------------------------------------------------
+Para eliminar chaches de lso navegadores se integró los Scripts que están en la carpeta `delcache`

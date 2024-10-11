@@ -5,22 +5,23 @@ import subprocess
     Este Script descarga un video de YouTube y luego lo procesa con ffepeg para convertirlo en cualquier formato.
     En este caso, en mp4.
 """
-
-# Configuración de yt_dlp para descargar el video
 ydl_opts = {
     'format': 'bestvideo+bestaudio/best',
-    'outtmpl': 'downloaded_video.%(ext)s',  # Plantilla para el nombre del archivo
-    'noplaylist': True,  # No descargar listas de reproducción
+    'outtmpl': 'downloaded_video.%(ext)s',  # Nombre del archivo
+    'noplaylist': True,  # Para que no descargue la lista de reporducción
 }
 
 def download_video(url):
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-        info_dict = ydl.extract_info(rl, download=True)
+        info_dict = ydl.extract_info(url, download=True)
         return info_dict
 
+
+"""
+En este función se utiliza comandos de FFmpeg para hacer conversiones de un formato 
+a otro formato (Necesario tener FFmpeg instaldo.)
+"""
 def process_video(input_file, output_file):
-    # Aquí puedes usar cualquier comando de FFmpeg
-    # Ejemplo: Convertir el video a MP4
     command = [
         'ffmpeg',
         '-i', input_file,  # Archivo de entrada
@@ -33,8 +34,11 @@ def process_video(input_file, output_file):
     ]
     subprocess.run(command, check=True)
 
+"""
+Función principal
+"""
 def main():
-    url = 'https://youtu.be/y_sRNLlGsM4'  # URL del video a descargar
+    url = input("Pega en enlace: ")
     info_dict = download_video(url)
     print(f"Descargado: {info_dict['title']}")
 
