@@ -10,4 +10,4 @@ Enlace: https://www.gyan.dev/ffmpeg/builds/
     release Builds: ffmpeg-release-full.7z
     Para usar la herramienta consulta el pdf que está en la ubicación: `/recursos/`
 ------------------------------------------------------------------------------------
-Para eliminar chaches de lso navegadores se integró los Scripts que están en la carpeta `delcache`
+Para eliminar caches de los navegadores se integró los Scripts que están en la carpeta `delcache`
